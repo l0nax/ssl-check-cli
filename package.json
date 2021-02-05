@@ -1,0 +1,13 @@
+{
+  "name": "ssl-check-cli",
+  "version": "1.0.0",
+  "description": "A CLI based on the great ssl-checker module",
+  "main": "index.js",
+  "repository": "https://github.com/l0nax/ssl-check-cli",
+  "author": "Francesco Emanuel Bennici <benniciemanuel78@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ssl-checker": "^2.0.7"
+  }
+}
