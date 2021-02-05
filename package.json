@@ -1,13 +1,28 @@
 {
-  "name": "ssl-check-cli",
+  "name": "@l0nax/ssl-check-cli",
   "version": "1.0.0",
   "description": "A CLI based on the great ssl-checker module",
   "main": "index.js",
-  "repository": "https://github.com/l0nax/ssl-check-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l0nax/ssl-check-cli.git"
+  },
   "author": "Francesco Emanuel Bennici <benniciemanuel78@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "ssl-checker": "^2.0.7"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/l0nax/ssl-check-cli/issues"
+  },
+  "homepage": "https://github.com/l0nax/ssl-check-cli#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssl-check",
+    "cli"
+  ]
 }
