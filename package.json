@@ -1,0 +1,41 @@
+{
+  "name": "ssl-check-cli",
+  "description": "A CLI based on the great ssl-checker module",
+  "version": "0.0.0",
+  "author": "Emanuel Bennici @l0nax",
+  "bin": {
+    "ssl-check": "./bin/run"
+  },
+  "bugs": "https://github.com/l0nax/ssl-check-cli/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^3",
+    "ssl-checker": "^2.0.7"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/l0nax/ssl-check-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "ssl-check"
+  },
+  "repository": "l0nax/ssl-check-cli",
+  "scripts": {
+    "prepack": "oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
