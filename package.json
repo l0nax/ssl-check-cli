@@ -1,7 +1,7 @@
 {
   "name": "ssl-check-cli",
   "description": "A CLI based on the great ssl-checker module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Emanuel Bennici @l0nax",
   "bin": {
     "ssl-check": "./bin/run"

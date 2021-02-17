@@ -19,7 +19,7 @@ $ npm install -g ssl-check-cli
 $ ssl-check COMMAND
 running command...
 $ ssl-check (-v|--version|version)
-ssl-check-cli/0.0.0 linux-x64 node-v12.20.1
+ssl-check-cli/1.0.4 linux-x64 node-v12.20.1
 $ ssl-check --help [COMMAND]
 USAGE
   $ ssl-check COMMAND
